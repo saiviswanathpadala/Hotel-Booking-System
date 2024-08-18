@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <Style>
+      form{
+        background-color: rgb(197, 203, 203);
+      }
+      h2{
+        text-align: center;
+        color: aliceblue;
+      }
+      .sri{
+        background-image: url('pijja.jpg');
+      }
+      legend{
+        text-align: center;
+        border-radius: 50px;
+        width: 250px;
+            box-shadow: 0 0 10px 0 #000;
+            align=center;
+            margin: 5px auto;
+            background: #fff;
+            padding: 5px 25px;
+    </Style>
+</head>
+<body>
+    <form action="" method="POST">
+    <fieldset>
+      <legend>Menu Card</legend>
+        
+        <label for="menu">Choose a menu item:</label>
+        <select id="menu" name="menu">
+          <option value="Vage">Vage</option>
+          <optgroup>
+          <option value="burger">Burger &#8377 120</option>
+          <option value="pizza">Pizza &#8377 150</option>
+          <option value="sandwich">Sandwich &#8377 200</option>
+          <option value="salad">Salad &#8377 250</option>
+          </optgroup>
+        </select>
+        <select id="menu" name="menuu">
+          <option value="Nonvage">Non Vage</option>
+          <optgroup>
+            <option value="Chicken tikka">Chicken Tikka &#8377 200</option>
+          <option value="Chicken Kari">Chicken Kari &#8377 250</option>
+          <option value="Chicken Biryani">Chicken Biryani &#8377 170</option>
+          </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+        <br>
+        <br>
+        <input type="submit" name="sub" value="Order">
+      </form>
+      <br>
+      <br>
+      </fieldset>
+      <div class="sri">
+      <h2>Vage menu </h2>
+      <marquee scrollamount="20">
+      <img src="burger.png"  alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="pizza.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="sandwich.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="salad.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </marquee>
+
+      <h2>Non Vage menu</h2>
+    <marquee scrollamount="20" direction="right">
+      <img src="chicken Kari.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="chicken biriyani.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="chicken tikka.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </marquee>
+    </div>
+
+    </body>
+</html>

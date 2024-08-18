@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: url(pijja.jpg);
+           
+        }
+        div.main{
+            width: 400px;
+            margin: 100px auto 0px auto;
+        }
+        h2{
+            text-align: center;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+        div.register{
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            font-size: 18px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.3);
+            box-shadow: 2px 2px 2px 15px rgba(0, 0, 0, 0.3);
+            color: #fff;
+        }
+        form#register{
+            margin: 40px;
+        }
+        label{
+            font-family: sans-serif;
+            font-size: 18px;
+            font-style: italic;
+        }
+        input#name{
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            outline: 0;
+            padding: 8px;
+            background-color: #fff;
+            box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+        }
+        input#submit{
+            width:200px;
+            padding: 7px;
+            font-size: 16px;
+            font-family: sans-serif;
+            font-weight: 600;
+            border: none;
+            border-radius: 3px;
+            background-color: rgba(250,100,0,0.8);
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid rgba(255,255,255,0.3);
+            box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+        }
+        label,span,h2{
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="register">
+        <h2>Register Here</h2>
+        <form id="register" method="post">
+        <label>First Name : </label>
+        <br>
+        <input type="text" name="fname" 
+        id="name" placeholder="Enter your First Name">
+        <br><br>
+        <label>Last Name : </label>
+        <br>
+        <input type="text" name="lname" 
+        id="name" placeholder="Enter your Last  Name">
+        <br><br>
+        <label>Your Age :</label>
+        <br>
+        <input type="number" name="age" id="name" placeholder="How old are you?">
+        <br><br>
+        <label>Email : </label>
+        <br>
+        <input type="email" name="email"id="name" placeholder="Enter your valid Email">
+        <br><br>
+        <label>Gender : </label>
+        <br>
+        <input type="radio" name="gender" value="male">
+        <span value="male">Male</span>
+        <input type="radio" name="gender" value="female">
+        <span value="female">Female</span>
+        <br><br>
+        <input type="submit" value="submit" name="submit" id="submit">
+
+        </form>
+</div>
+</div>
+</body>
+</html>

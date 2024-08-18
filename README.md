@@ -17,10 +17,10 @@
 ![userpage](https://github.com/saiviswanathpadala/Hotel-Booking-System/blob/main/Snapshots/userpage.jpg)
 
 ### Home Page
-![Home page](https://github.com/saiviswanathpadala/Hotel-Booking-System/blob/main/Snapshots/Homepage.jpg)
+![Home page](https://github.com/saiviswanathpadala/Hotel-Booking-System/blob/main/Snapshots/homepage.jpg)
 
 ### Booking Page
-![Booking page](https://github.com/saiviswanathpadala/Hotel-Booking-System/blob/main/Snapshots/Booking.jpg)
+![Booking page](https://github.com/saiviswanathpadala/Hotel-Booking-System/blob/main/Snapshots/booking.jpg)
 
 ### Gallery Page
 ![Gallery](https://github.com/saiviswanathpadala/Hotel-Booking-System/blob/main/Snapshots/gallery.jpg)

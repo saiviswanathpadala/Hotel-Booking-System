@@ -34,5 +34,5 @@
 ### Contact Page :
 ![Contact](https://github.com/saiviswanathpadala/Hotel-Booking-System/blob/main/Snapshots/contactpage.jpg)
 
-### PhPMyAdmin for USER CONTACT DATA stores in "user_info" TABLE in "user_db" DATABASE :
+### PhPMyAdmin for USER CONTACT DATA stores in "user_info" TABLE in "user_db" DATABASE
 ![user_db-user_info](https://github.com/saiviswanathpadala/Hotel-Booking-System/blob/main/Snapshots/user_db-user_info.jpg)
